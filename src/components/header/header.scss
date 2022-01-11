@@ -1,0 +1,10 @@
+@import "../../style/variables.scss";
+.nav {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-link {
+    color: $white;
+  }
+}
