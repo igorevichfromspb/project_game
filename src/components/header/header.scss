@@ -1,9 +1,11 @@
 @import "../../style/variables.scss";
+@import "../../style/button.scss";
 .nav {
   height: 120px;
+  margin-left: 615px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   &-link {
     color: $white;
   }

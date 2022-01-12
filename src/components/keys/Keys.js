@@ -1,4 +1,5 @@
 import key from "../../resources/img/key.png";
+
 import "./keys.scss";
 const Keys = () => {
   return (

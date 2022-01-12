@@ -15,7 +15,7 @@ const Header = () => {
         <a className="nav-link" href="#">
           Scoreboard
         </a>
-        <button>Connect wallet</button>
+        <button className="button button-primary">Connect wallet</button>
       </nav>
     </div>
   );

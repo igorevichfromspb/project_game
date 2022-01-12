@@ -4,6 +4,7 @@ import "./app.scss";
 import Keys from "../keys/Keys";
 import Keybar from "../keybar/Keybar";
 import Levels from "../levels/Levels";
+import Bg from "../bg/Bg";
 
 function App() {
   return (

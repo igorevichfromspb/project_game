@@ -1,7 +1,14 @@
+@import "../../style/variables";
 .levels {
   width: 415px;
   height: 118px;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
