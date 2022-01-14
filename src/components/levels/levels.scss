@@ -5,10 +5,28 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  &__title {
+    width: 417px;
+    height: 59px;
+    &-level {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      width: 206px;
+      height: 59px;
+      background: radial-gradient(
+        134.39% 128.21% at 50.41% 50%,
+        #994ca5 0%,
+        #030a2f 100%
+      );
+      border-radius: 5px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }

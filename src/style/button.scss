@@ -5,7 +5,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  &-primary {
+  &__primary {
     width: 264px;
     height: 79px;
     background: radial-gradient(
@@ -16,7 +16,7 @@
     opacity: 0.46;
     border-radius: 5px;
   }
-  &-secondary {
+  &__secondary {
     width: 135px;
     height: 42px;
     background: radial-gradient(

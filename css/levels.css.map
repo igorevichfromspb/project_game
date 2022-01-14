@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,AAAC,CACN,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CAWxB,AAVE,AAAD,aAAO,AAAC,CACN,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,IAAI,CACb,AACA,AAAD,eAAS,AAAC,CACR,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,YAAY,CAC9B",
+    "sources": [
+        "../src/components/levels/levels.scss",
+        "../src/style/variables.scss"
+    ],
+    "names": [],
+    "file": "levels.css"
+}

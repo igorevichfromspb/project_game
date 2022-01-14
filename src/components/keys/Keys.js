@@ -4,13 +4,15 @@ import "./keys.scss";
 const Keys = () => {
   return (
     <div className="keys">
-      <p className="keys-remaining">Level 2 keys remaining</p>
-      <div className="keys-img">
+      <p className="keys__remaining">
+        <span className="keys__remaining-level">Level 2</span> keys remaining
+      </p>
+      <div className="keys__img">
         <img src={key} alt="keys" />
         <img src={key} alt="keys" />
         <img src={key} alt="keys" />
       </div>
-      <p>X 65</p>
+      <p className="keys__number">X 65</p>
     </div>
   );
 };
