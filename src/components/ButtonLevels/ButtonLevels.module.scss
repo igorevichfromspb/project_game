@@ -1,0 +1,15 @@
+@import "../../style/variables.scss";
+.button-secondary-levels {
+  width: 135px;
+  height: 42px;
+  color: $white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px;
+  background-image: url(../../resources/img/button-secondary-levels.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

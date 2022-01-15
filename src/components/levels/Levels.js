@@ -1,13 +1,14 @@
 import "./levels.scss";
+import { ButtonLevels } from "../ButtonLevels";
 const Levels = () => {
   return (
     <div className="levels">
-      <div className="levels__title">
-        <title className="levels__title-level">Level 1</title>
+      <div className="levels-title">
+        <title className="levels-title_level">Level 1</title>
       </div>
-      <div className="levels__buttons">
-        <button className="button button__secondary">Level 2</button>
-        <button className="button button__secondary">Level 3</button>
+      <div className="levels-buttons">
+        <ButtonLevels>Level 2</ButtonLevels>
+        <ButtonLevels>Level 3</ButtonLevels>
       </div>
     </div>
   );

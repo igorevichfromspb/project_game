@@ -1,0 +1,18 @@
+.keygroup > img {
+  position: relative;
+  &:not(:first-child) {
+    margin-left: -25px;
+  }
+}
+#keygroup-key-1 {
+  z-index: 4;
+}
+#keygroup-key-2 {
+  z-index: 3;
+}
+#keygroup-key-3 {
+  z-index: 2;
+}
+#keygroup-key-4 {
+  z-index: 1;
+}

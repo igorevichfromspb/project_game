@@ -1,19 +1,40 @@
 @import "../../style/variables.scss";
-.keys {
-  width: 324px;
-  height: 208px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+
+.keys-wrapper {
   border-radius: 15px;
   border: 1px solid #e571f6;
-  &__remaining {
-    color: $white;
-    &-level {
-      color: $pink;
-    }
-  }
-  &__number {
+  padding: 29px;
+  width: 324px;
+  height: 208px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.keys-remaining {
+  color: $white;
+  &_level {
     color: $pink;
   }
+}
+.keys-number {
+  color: $pink;
+}
+
+.keys-group > img {
+  position: relative;
+  &:not(:first-child) {
+    margin-left: -47px;
+  }
+}
+
+#keys-group_key-1 {
+  z-index: 3;
+}
+#keys-group_key-2 {
+  z-index: 2;
+}
+#keys-group_key-3 {
+  z-index: 1;
 }

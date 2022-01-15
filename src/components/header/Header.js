@@ -1,25 +1,30 @@
+import { Container, Row, Col } from "react-bootstrap";
+import { Button } from "../Button";
 import "./header.scss";
+
 const Header = () => {
   return (
-    <div className="container">
-      <header className="header">
-        <nav className="nav">
-          <a className="nav-link" href="#">
+    <Container fluid>
+      <Container className="py-3">
+        <Row xs="auto" className="gx-5 justify-content-end align-items-center">
+          <Col className="nav-link" href="#">
             Home
-          </a>
-          <a className="nav-link" href="#">
+          </Col>
+          <Col className="nav-link" href="#">
             Game
-          </a>
-          <a className="nav-link" href="#">
+          </Col>
+          <Col className="nav-link" href="#">
             Vault
-          </a>
-          <a className="nav-link" href="#">
+          </Col>
+          <Col className="nav-link" href="#">
             Scoreboard
-          </a>
-          <button className="button button__primary">Connect wallet</button>
-        </nav>
-      </header>
-    </div>
+          </Col>
+          <Col>
+            <Button>Connect wallet</Button>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   );
 };
 

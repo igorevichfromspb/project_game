@@ -1,4 +1,5 @@
 @import "../../style/variables";
+
 .levels {
   width: 415px;
   height: 118px;
@@ -6,25 +7,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  &__title {
+  &-title {
     width: 417px;
     height: 59px;
-    &-level {
+    &_level {
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 28px;
       color: $white;
-      width: 206px;
+      width: 417px;
       height: 59px;
-      background: radial-gradient(
-        134.39% 128.21% at 50.41% 50%,
-        #994ca5 0%,
-        #030a2f 100%
-      );
-      border-radius: 5px;
+      background-image: url(../../resources/img/button-primary-levels.png);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
-  &__buttons {
+  &-buttons {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
